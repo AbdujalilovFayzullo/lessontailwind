@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: #111827;
+}
+.header__btn{
+    padding: 8px 25px;
+    background-color: #2563EB;
+    border-radius: 5px;
+    color: white;
+}
+.header__btn:hover{
+    opacity: 0.8;
+}
+.hero__btn{
+    padding: 8px 25px;
+    background-color: #2563EB;
+    border-radius: 5px;
+    color: white;
+}
+.hero__btn:hover{
+    opacity: 0.8;
+}
+
+.wrapper{
+    background-color: #1F2937;
+}
+
+.wrapper__block{
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.wrapper__item_block{
+    margin-top: -50%;
+}
+.span{
+    border: 1px solid gray;
+    width: 150px;
+    display: block;
+}
+.card{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.cardd{
+    border: 1px solid gray;
+    background-color: #2563EB;
+    border-radius: 10px;
+}
+.card__btn{
+    width: 320px;
+    background-color: #2563EB;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.card__btn:focus{
+    border: red;
+    outline: auto;
+}
+.card__btnn{
+    width: 320px;
+    background-color: white;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.card__btnn:focus{
+    border: red;
+    outline: auto;
+}
+.inputt{
+    display: block;
+    width: 500px;
+    background-color: #1F2937;
+    margin-bottom: 50px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 10px;
+    color: #2563EB;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.inputtt{
+    display: block;
+    width: 500px;
+    background-color: #1F2937;
+    margin-bottom: 50px;
+    padding: 10px 0px 100px 10px;
+    border-radius: 10px;
+    color: #2563EB;
+    margin-right: 30px;
+    margin-left: 30px; 
+}
+.input__btn{
+    width: 500px;
+    background-color: #2563EB;
+    padding: 10px 0 10px 0px;
+    border-radius: 10px;
+    outline: none;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.input__block{
+    background-color: #1F2937;
+}
+.finish__span{
+    width: 100%;
+    border: 1px solid gray;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.finish__block{
+    gap: 200px;
+}
+
+footer{
+    position: sticky;
+    bottom: 0;
+}
